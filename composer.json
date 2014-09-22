@@ -1,0 +1,30 @@
+{
+    "name": "tracker/emitter",
+    "description": "App Event Data Dispatcher - Made for Tracker",
+    "homepage": "https://github.com/fightbulc/tracker_emitter",
+    "type": "library",
+    "keywords": [
+        "tracker",
+        "app",
+        "events",
+        "dispatcher"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tino Ehrich",
+            "email": "opensource@efides.com",
+            "role": "developer"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Tracker\\Emitter\\": "src/"
+        }
+    }
+}
